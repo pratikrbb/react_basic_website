@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lato:ital,wght@1,300;1,400&family=Mulish:ital,wght@0,300;1,200&family=Redressed&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: muli; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-brand{
+    color: black !important;
+    font-weight: 700;
+}
+
+.navbar a:hover {
+    color:#3498db !important;
+}
+.active_menu {
+    font-weight: bold;
+    border-bottom: #565387;
+}
+.custom_img {
+    width: 350px;
+    height:400px;
+}
+
+#header {
+    width: 100%;
+    height: 80vh;
+    margin-top: 40px;
+}
+#header h1 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    font-weight: 500;
+}
+#header .brand-name {
+    color: #3498db;
+    font-size: 42   px;
+    font-weight: 500;
+}
+#header h2 {
+    font-size: 18px;
+}
+#header .btn-get-started {
+    border : 2px solid #3498db;
+    text-decoration: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    border-radius: 50px;
+    color: #3498db;
+    transition: 0.5s;
+    padding: 5px 20px;
+}
+#header .btn-get-started:hover {
+    background: #3498db;
+    color: white;
+}
+h5 .card-title {
+    margin-bottom: 0.2rem;
+}
+
+.s_img {
+    width : 150px;
+    height: 180px
 }
